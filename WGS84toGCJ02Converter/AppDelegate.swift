@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreLocation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // MARK: - Convert to GCJ02 from WGS84 if in China
+        
+        // origin coordinate
+        let initialLocation = CLLocation(latitude: 31.18201931, longitude: 121.60227630)
+        
+        let convertedLocation = ELWGS84toGCJ02Converter.el_convert(wgs84Location: initialLocation)
+        
+        print("initial location: \(initialLocation),\nconverted location: \(convertedLocation)")
+        
         return true
     }
 

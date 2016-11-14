@@ -12,6 +12,7 @@
 		0B7A0B421DD9747100755E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7A0B401DD9747100755E33 /* Main.storyboard */; };
 		0B7A0B441DD9747100755E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B7A0B431DD9747100755E33 /* Assets.xcassets */; };
 		0B7A0B471DD9747100755E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7A0B451DD9747100755E33 /* LaunchScreen.storyboard */; };
+		0B7A0B4F1DD974AC00755E33 /* ELWGS84toGCJ02Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7A0B4E1DD974AC00755E33 /* ELWGS84toGCJ02Converter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0B7A0B431DD9747100755E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B7A0B461DD9747100755E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B7A0B481DD9747100755E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B7A0B4E1DD974AC00755E33 /* ELWGS84toGCJ02Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ELWGS84toGCJ02Converter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				0B7A0B3C1DD9747100755E33 /* AppDelegate.swift */,
 				0B7A0B3E1DD9747100755E33 /* ViewController.swift */,
+				0B7A0B4E1DD974AC00755E33 /* ELWGS84toGCJ02Converter.swift */,
 				0B7A0B401DD9747100755E33 /* Main.storyboard */,
 				0B7A0B431DD9747100755E33 /* Assets.xcassets */,
 				0B7A0B451DD9747100755E33 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B7A0B4F1DD974AC00755E33 /* ELWGS84toGCJ02Converter.swift in Sources */,
 				0B7A0B3F1DD9747100755E33 /* ViewController.swift in Sources */,
 				0B7A0B3D1DD9747100755E33 /* AppDelegate.swift in Sources */,
 			);
